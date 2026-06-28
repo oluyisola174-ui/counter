@@ -1,7 +1,8 @@
 let counter = 0;
- loadCounter()
+let counterElement= document.getElementById("counter");
+ loadCounter();
 function updateCounter(){
-    getElementById("counter").innerHTML = counter;
+    counterElement.innerHTML = counter;
 }
 function increaseCounter(){
     counter++;
